@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+        document.write(" 1 = remove space ")
+        document.write("<br>");
+        document.write("<br>");
+        //remove space 
+                var str = "hello there , how are you";
+                document.write("before ="+str);
+                document.write("<br>");
+                var Newstr = "";
+                for (let x of str) {
+                if (x != " ") {
+                                Newstr += x;
+                                        }
+                                    }
+                                    document.write("after ="+Newstr);
+
+
+             document.write("<br>");
+             document.write("<br>");  
+
+        //replace name 
+        document.write("2 = replce name ")
+        document.write("<br>");
+        document.write("<br>");
+
+               var str="hello there , how are you";
+                document.write(str);  
+
+                document.write("<br>");
+                document.write("<br>");
+
+
+                    
+                
+                var newstr=str.replace("there" , "ronak");
+                document.write(newstr) ;  
+
+
+ //find index  
+ document.write("<br>");
+         document.write("<br>");  
+         document.write("3 = find index");
+         document.write("<br>");
+         document.write("<br>");   
+         
+         
+       var str = "hello there , how are you";
+       var Newstr = "";
+       var count=0;
+      
+
+       for(let x of str){
+           if(x=="a") {
+              document.write("index of 'are' = " +count);
+              break;  
+           }
+        count+=1;
+        
+   
+    
+       }
+
+
+
+
+
+        // concate abc
+        document.write("<br>");
+        document.write("<br>");  
+        document.write("4 = concate abc");
+        document.write("<br>");
+        document.write("<br>");    
+
+                     var str = "hello there , how are you";
+                     document.write(str );
+                     document.write("<br>");
+                     document.write("<br>");  
+                     document.write(str + " " +"abc");  
+                      
+        
+    //    alert(count);
+    
+    </script>
+</body>
+</html>
