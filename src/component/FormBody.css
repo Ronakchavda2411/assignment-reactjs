@@ -1,0 +1,40 @@
+.form {
+    background-color: rgba(23,40,47,255);
+    
+}
+.divform{
+    background-color:rgba(23,40,47,255);
+    padding-top: 50px;
+    padding-bottom: 50px;
+  
+}
+
+
+.divform input,label,h2{
+    background-color: rgba(23,40,47,255);
+    color: white;
+    
+}
+.divform input{
+     background-color: rgb(186, 204, 236);
+     border-radius: 5px;
+     font-size: large;
+     margin-left: 0px;
+     color:black;
+     font-weight: bold;
+}
+.form button{
+    margin-left: 100px;
+    margin-bottom: 50px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.thankyou{
+   padding: 100px;
+   margin: 100px;
+   height: 500px;
+  width: auto;
+}
